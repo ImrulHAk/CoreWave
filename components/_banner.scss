@@ -1,0 +1,50 @@
+#banner {
+    background: $bgcolor;
+    padding-top: 100px;
+    h1 {
+        font-size: 60px;
+        font-weight: 300;
+        line-height: 71.5px;
+        color: $black;
+        width: 526px;
+        margin-bottom: 37px;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: $gray;
+        margin-bottom: 51px;
+        width: 511px;
+    }
+
+    .bannerbtn {
+        @include btn;
+
+        .bannericon{
+            width: 20px;
+            height: 20px;
+            background: $subprimary;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            font-size: 10px;
+            color: $primary;
+            margin-right: 12px;
+        }
+        &:hover {
+            background: transparent;
+            border: 1px solid $primary;
+            color: $black;
+            transition: 0.4s;
+        }
+    }
+    .bannerplaybtn{
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,39 @@
+@import "./variable";
+
+nav {
+    padding-top: 26px;
+    position: absolute;
+    width: 100%;
+
+    ul {
+        gap: 45px;
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+
+            a {
+                font-size: 16px;
+                font-weight: 500;
+                color: $black;
+                text-decoration: none;
+
+                &:hover {
+                    color: $primary;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+
+    .navbtn {
+        @include btn;
+        margin-left: 142px;
+        &:hover{
+            color: $white;
+            background: #05a96a;
+            transition: 0.4s;
+        }
+    }
+}

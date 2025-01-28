@@ -1,0 +1,94 @@
+#client {
+    margin-bottom: 100px;
+
+    .title {
+        h3 {
+            font-size: 45px;
+            font-weight: 600;
+            line-height: 54px;
+            color: $black;
+            text-align: center;
+            text-transform: capitalize;
+            margin-bottom: 48px;
+        }
+    }
+
+    .client__item {
+        border: 0.5px solid $underline;
+        padding: 45px 55px;
+        border-radius: 15px;
+        position: relative;
+        margin-bottom: 75px !important;
+        .clientimg {
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .clienticon {
+            position: absolute;
+            top: 65px;
+            left: 120px;
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 30px;
+            color: $black;
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .clientstar {
+            gap: 5px;
+
+            i {
+                font-size: 20px;
+                color: $golden;
+                margin-bottom: 20px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $gray;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        h5 {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 30px;
+            color: $black;
+            text-align: center;
+        }
+
+        h6 {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $gray;
+            text-align: center;
+        }
+    }
+
+    .carousel-indicators {
+        li {
+            list-style: none !important;
+            width: 35px !important;
+            height: 10px !important;
+            background-color: $carousel !important;
+            border-radius: 50px;
+            opacity: 1 !important;
+            border-top: 0;
+            border-bottom: 0;
+        }
+        .active{
+            background-color: $primary !important;
+        }
+    }
+}

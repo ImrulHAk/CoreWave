@@ -1,0 +1,72 @@
+footer{
+    .footer_row{
+        margin-bottom: 42px;
+        .footer_item{
+            .footerlogo{
+                margin-bottom: 25px;
+            }
+            h5{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                color: $gray;
+            }
+            .footericon{
+                gap: 7px;
+                margin-top: 20px;
+                i{
+                    font-size: 30px;
+                    color: $primary;
+                }
+            }
+            h3{
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                color: $black;
+                margin-bottom: 25px;
+            }
+            ul{
+                padding: 0;
+                margin: 0;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        color: $gray;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+            input{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                color: $inputtext;
+                padding: 13px 120px 13px 15px;
+                border: 2px solid $input;
+                border-radius: 5px;
+                margin-bottom: 14px
+            }
+            .footerbtn{
+                @include btn;
+            }
+        }
+    }
+    .underline{
+        width: 100%;
+        border: 2px solid $underline;
+        margin-bottom: 13px;
+    }
+    h6{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: $gray;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+}

@@ -1,0 +1,74 @@
+#business{
+    width: 100%;
+    background: $bgcolor;
+    border-top-left-radius: 350px;
+    border-bottom-right-radius: 350px;
+    margin-bottom: 90px;
+    padding: 70px 0px;
+    .business__wrapper{
+        gap: 160px;
+        .business__left{
+            h3{
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 54px;
+                color: $black;
+                margin-bottom: 20px;
+                width: 457px
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                color: $gray;
+                margin-bottom: 30px;
+                width: 543px;
+            }
+            a{
+                @include btn;
+            }
+        }
+        .business__right{
+            .business__item{
+                width: 260px;
+                border-radius: 15px;
+                background: $white;
+                padding: 40px 60px;
+                img{
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                }
+                h5{
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    color: $black;
+                    text-align: center;
+                    margin-top: 16px;
+                    margin-bottom: 5px;
+                }
+                h4{
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    color: $black;
+                    text-align: center; 
+                }
+            }
+            .business__item__one{
+                h5{
+                    color: $white;
+                }
+                h4{
+                    color: $white;
+                }
+                background: $primarylite;
+                margin-bottom: 40px;
+            }
+            .business__item__two{
+                margin-top: 165px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
